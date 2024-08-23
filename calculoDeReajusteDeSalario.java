@@ -5,7 +5,7 @@ public class calculoDeReajusteDeSalario {
         double salario;
         Scanner prompt = new Scanner(System.in);
         System.out.print("Informe seu salario: ");
-        salario = prompt.nextDouble();4
+        salario = prompt.nextDouble();
         if (salario <= 1412) {
             salario = salario * 0.12 + salario;
         } else if (salario <= 3000) {
